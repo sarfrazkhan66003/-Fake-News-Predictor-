@@ -18,7 +18,8 @@ Fake News Predictor is a simple yet powerful tool designed to help users analyze
 - 🔍 Instantly classify news as True or False
 - 📊 Display a confidence score (%) showing prediction certainty
 - 🗳️ Collect user feedback if the prediction seems incorrect
-- 🗄️ Store feedback in a database to improve future performance
+- 🗄️ Store feedback in a database to improve future performance.
+
 This combination helps users critically evaluate not just the authenticity, but also the tone and bias of the content they consume.
 Together, these metrics empower users to critically assess the tone and bias of the content they’re consuming. If a user disagrees with the AI’s classification, they can submit feedback directly within the platform. This feedback is stored in a database, helping refine and improve the system over time.
 
@@ -29,9 +30,9 @@ To create Fake News Predictor, we began by sourcing and preprocessing a large da
 ## 🧠 Machine Learning & NLP
 
 We trained and evaluated three machine learning models:
-- Logistic Regression
-- Random Forest
-- XGBoost
+    - Logistic Regression
+    - Random Forest
+    - XGBoost
 
 ## 🖥️ Streamlit Web App
 
@@ -56,19 +57,19 @@ We trained and evaluated three machine learning models:
     - User feedback
     - Timestamps
 
-We selected the most accurate model, which achieved a **96% success rate**.
+- We selected the most accurate model, which achieved a **96% success rate**.
 
-The backend was developed using **Flask**, which also processes bias analysis and feedback collection. For additional insights, we implemented **TextBlob** to provide polarity and subjectivity scores to detect tone and bias in articles.
+- The backend was developed using **Flask**, which also processes bias analysis and feedback collection. For additional insights, we implemented **TextBlob** to provide polarity and subjectivity scores to detect tone and bias in articles.
 
-User feedback is stored in a **SQLite** database, creating a system that can learn and improve over time. To ensure a user-friendly experience, we designed the interface in **Figma**, and developed it using **HTML and CSS**.
+- User feedback is stored in a **SQLite** database, creating a system that can learn and improve over time. To ensure a user-friendly experience, we designed the interface in **Figma**, and developed it using **HTML and CSS**.
 
 ## **Challenges we ran into**
 
-There were a lot of new frameworks we learned about during this project, allowing us to gain valuable experience. Although it was time-consuming, learning **scikit-learn** and training machine learning models (including logistic regression, random forest, and XGBoost) was exciting.
+- There were a lot of new frameworks we learned about during this project, allowing us to gain valuable experience. Although it was time-consuming, learning **scikit-learn** and training machine learning models (including logistic regression, random forest, and XGBoost) was exciting.
 
-Initially, our AI model had only **50% accuracy**, and improving it was a tedious process. We had to research and implement different data processing techniques to train the AI more effectively, eventually achieving **96% accuracy**.
+- Initially, our AI model had only **50% accuracy**, and improving it was a tedious process. We had to research and implement different data processing techniques to train the AI more effectively, eventually achieving **96% accuracy**.
 
-Additionally, none of us had experience with **SQLite** or any other database engine, so learning how to use it from scratch to store user feedback was a significant challenge.
+- Additionally, none of us had experience with **SQLite** or any other database engine, so learning how to use it from scratch to store user feedback was a significant challenge.
 
 ## **Accomplishments that we're proud of**
 
