@@ -8,9 +8,9 @@ When brainstorming a creative AI project to address a common issue, we were stru
 
 Fake News Predictor is a simple yet powerful tool designed to help users analyze the credibility of news articles. Users can paste any article into the platform and instantly receive a classification of whether the news is **True** or **False**, alongside a confidence score represented as a percentage. This confidence score allows users to gauge how certain the AI is in its prediction, with higher percentages reflecting greater certainty. 
 
-To provide further insights, Fake News Predictor also analyzes the article for bias using polarity and subjectivity scores:
-- **Polarity** measures the sentiment of the text, ranging from -1 (negative) to 1 (positive), helping users understand the tone of the article.
-- **Subjectivity** evaluates how opinion-based the article is, ranging from 0 (completely objective) to 1 (highly subjective), enabling users to distinguish between factual reporting and personal opinions.
+- To provide further insights, Fake News Predictor also analyzes the article for bias using polarity and subjectivity scores:
+    - **Polarity** measures the sentiment of the text, ranging from -1 (negative) to 1 (positive), helping users understand the tone of the article.
+    - **Subjectivity** evaluates how opinion-based the article is, ranging from 0 (completely objective) to 1 (highly subjective), enabling users to distinguish between factual reporting and personal opinions.
 
 ## ✨ Key Features:
 
